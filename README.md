@@ -2,7 +2,9 @@
 
 ## Project Overview
 
+
 The **Theme-Design-TradingApp** is a modern and responsive web application designed for trading enthusiasts. This project showcases a sleek and user-friendly interface with various sections including pricing plans, brand animations, reviews, and a download section. The application is built using HTML, CSS, and JavaScript, and it incorporates animations and interactive elements to enhance the user experience.
+**View Link:** https://ajjiadd.github.io/Theme-Design-TradingApp/
 
 ## Features
 
