@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Test</title>
+    <style>
+        .brands {
+            overflow: hidden;
+            width: 100%;
+        }
+
+        .brands .brand-container {
+            display: flex;
+            gap: 1.5rem;
+            animation: brands 10s linear infinite;
+        }
+
+        @keyframes brands {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        .brands .brand-container img {
+            height: 5rem;
+            width: 10rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="brands">
+        <div class="brand-container">
+        <img src="/img/brands/logo0.png" alt="">
+        <img src="/img/brands/logo1.png" alt="">
+        <img src="/img/brands/logo3.png" alt="">
+        <img src="/img/brands/JSL.png" alt="">
+        <img src="/img/brands/logo0.png" alt="">
+        <img src="/img/brands/logo1.png" alt="">
+        <img src="/img/brands/logo3.png" alt="">
+            <!-- Add more brand images as needed -->
+        </div>
+    </div>
+</body>
+</html>
